@@ -13,6 +13,7 @@ import logoGoogle from './google-logo.json';
 import Lottie from 'lottie-react-native';
 import * as AuthSession from 'expo-auth-session';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { TokenTypeHint } from 'expo-auth-session';
 
 type AuthResponse = {
   type: string;
